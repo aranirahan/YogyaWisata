@@ -1,0 +1,23 @@
+package com.aranirahan.yogyawisata.presentation.base
+
+import io.reactivex.disposables.CompositeDisposable
+
+open class BasePresenter<T: BaseView> {
+
+    protected val disposables = CompositeDisposable()
+    protected var view: T? = null
+
+    fun bind(view: T){
+        this.view = view
+    }
+
+    private fun unbind(){
+        this.view = null
+    }
+
+    fun destroy() {
+        if (!disposables.isDisposed)
+            disposables.dispose()
+        unbind()
+    }
+}

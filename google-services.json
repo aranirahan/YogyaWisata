@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "153402147430",
+    "firebase_url": "https://yogyawisata-25efc.firebaseio.com",
+    "project_id": "yogyawisata-25efc",
+    "storage_bucket": "yogyawisata-25efc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:153402147430:android:1444bde565788c32",
+        "android_client_info": {
+          "package_name": "com.aranirahan.yogyawisata"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "153402147430-18igpf5j2i2sjjjcj1ubhkmfet3h13qr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aranirahan.yogyawisata",
+            "certificate_hash": "4bffacfbaa3ba982770d74541e869c8b36a5a424"
+          }
+        },
+        {
+          "client_id": "153402147430-qvjubgierv7ff1pgkeit114bhipksol5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmmYFnZ8J0HevzOcfBr89TpSn4KOWHJq0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "153402147430-qvjubgierv7ff1pgkeit114bhipksol5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
